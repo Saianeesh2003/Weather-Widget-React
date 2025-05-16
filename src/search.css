@@ -1,0 +1,21 @@
+.main { /* This class name IS present in your Search.js */
+  display: flex;
+  justify-content: center; /* Center the form */
+  margin-bottom: 20px; /* Add some space below the search bar */
+}
+
+.main form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.MuiTextField-root { /* Style the Material-UI TextField */
+  margin-right: 10px;
+}
+
+.MuiButton-root { /* Style the Material-UI Button */
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-transform: none; /* Prevent uppercase text */
+}
